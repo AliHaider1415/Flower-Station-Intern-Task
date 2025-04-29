@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 0 15px;
+}
+
+.animate-cta {
+  transition: all 0.3s ease;
+}
+
+.animate-cta:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.modal-content {
+  border-radius: 16px;
+}
+
+.event-section {
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #f0f4ff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+input, select {
+  border-radius: 8px !important;
+}
